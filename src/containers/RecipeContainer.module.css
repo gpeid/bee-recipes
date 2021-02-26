@@ -1,0 +1,12 @@
+.recipes{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 32px;
+}
+
+.recipe_item{
+  background: rgb(79, 201, 140);
+  padding: 1em
+}
+
