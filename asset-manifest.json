@@ -1,13 +1,13 @@
 {
   "main.css": "/bee-recipes/static/css/main.ef9381b3.chunk.css",
-  "main.js": "/bee-recipes/static/js/main.3c710803.chunk.js",
-  "main.js.map": "/bee-recipes/static/js/main.3c710803.chunk.js.map",
+  "main.js": "/bee-recipes/static/js/main.b84893d3.chunk.js",
+  "main.js.map": "/bee-recipes/static/js/main.b84893d3.chunk.js.map",
   "static/js/1.d8f74983.chunk.js": "/bee-recipes/static/js/1.d8f74983.chunk.js",
   "static/js/1.d8f74983.chunk.js.map": "/bee-recipes/static/js/1.d8f74983.chunk.js.map",
   "runtime~main.js": "/bee-recipes/static/js/runtime~main.d17a6dc5.js",
   "runtime~main.js.map": "/bee-recipes/static/js/runtime~main.d17a6dc5.js.map",
   "static/css/main.ef9381b3.chunk.css.map": "/bee-recipes/static/css/main.ef9381b3.chunk.css.map",
   "index.html": "/bee-recipes/index.html",
-  "precache-manifest.8ee0c9f0dfa25af80a34f46f98a5e5cc.js": "/bee-recipes/precache-manifest.8ee0c9f0dfa25af80a34f46f98a5e5cc.js",
+  "precache-manifest.ebcb658d050237d2c7cd30aeb4725f7e.js": "/bee-recipes/precache-manifest.ebcb658d050237d2c7cd30aeb4725f7e.js",
   "service-worker.js": "/bee-recipes/service-worker.js"
 }
