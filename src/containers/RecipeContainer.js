@@ -1,30 +1,30 @@
-import React, { Component } from 'react';
+import React from 'react';
 import styles from './RecipeContainer.module.css';
-import Recipe from './../components/Recipe/Recipe';
+import Card from '../components/Card/Card';
 import { shuffle } from './../Functions';
 import { RECIPES } from './../data/recipesData';
 
 // import Checkbox from "@material-ui/core/Checkbox";
 
-export default class RecipeContainer extends Component {
-	render() {
-		let recipes = shuffle(RECIPES);
+const RecipeContainer = () => {
+	let recipes = shuffle(RECIPES);
 
-		let randomRecipe =
-			recipes[Math.floor(Math.random() * Math.floor(recipes.length))];
-		// var recipeMap = () => {
-		//   return recipes.map((recipe,index) => (
-		//     <Recipe />
-		//   ));
-		// };
-		return (
-			<div className={styles.recipes}>
-				<Recipe {...randomRecipe} index="Random" />
-				{// recipeMap()
-				recipes.map((recipe, index) => (
-					<Recipe {...recipe} index={index} key={index} />
-				))}
-			</div>
-		);
-	}
-}
+	let randomRecipe =
+		recipes[Math.floor(Math.random() * Math.floor(recipes.length))];
+	// var recipeMap = () => {
+	//   return recipes.map((recipe,index) => (
+	//     <Recipe />
+	//   ));
+	// };
+	return (
+		<div className={styles.recipes}>
+			<Card {...randomRecipe} index="Random" />
+			{// recipeMap()
+			recipes.map((recipe, index) => (
+				<Card {...recipe} index={index} key={index} />
+			))}
+		</div>
+	);
+};
+
+export default RecipeContainer;
