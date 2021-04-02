@@ -1,12 +1,8 @@
 .recipes{
   display:grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   grid-template-rows: 1fr 1fr;
-  grid-gap: 32px;
+  grid-gap: 25px;
+  grid-auto-flow: row;
+  justify-content: center;    
 }
-
-.recipe_item{
-  background: rgb(79, 201, 140);
-  padding: 1em
-}
-

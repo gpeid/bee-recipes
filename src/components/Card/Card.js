@@ -22,7 +22,7 @@ const Card = (props) => {
 	};
 
 	return (
-		<div key={id} className={styles.recipe_item}>
+		<div key={id} className={styles.card}>
 			<h3>
 				{index}) ID:{id} - {name}
 			</h3>
@@ -31,10 +31,15 @@ const Card = (props) => {
 			<h4>Ingredients:</h4>
 			{displayIngredients()}
 
-			<Link to={`/recipe/${id}`} props={props}>Go to Recipe!</Link>
-
+			<Link
+				to={{
+					pathname: `/recipe/${id}`,
+					state: props,
+				}}
+			>
+				Go to Recipe!
+			</Link>
 		</div>
-
 	);
 };
 
