@@ -1,54 +1,85 @@
 export const RECIPES = [
-  {
-    id: 0,
-    name: "thit kho",
-    ingredients:
-      "pork, coconut soda, soy sauce, sometimes pepper it depends you know if i want it spicy or not",
-    diet_type: "meat"
-  },
-  {
-    id: 1,
-    name: "fried rice",
-    ingredients: "rice, peas",
-    diet_type: "veg"
-  },
-  {
-    id: 2,
-    name: "meatless jerk stirfry",
-    ingredients:
-      "meatless beef tips, jerk seasoning, bell peppers, onions, meatless crumble",
-    diet_type: "veg"
-  },
-  {
-    id: 3,
-    name: "mushroom and beef risotto",
-    ingredients:
-      "meatless beef tips, jerk seasoning, bell peppers, onions, meatless crumble",
-    diet_type: "meat"
-  },
-  {
-    id: 4,
-    name: "baked lemon chicken",
-    ingredients: "chicken, lemon pepper",
-    diet_type: "meat"
-  },
-  {
-    id: 5,
-    name: "chicken kho",
-    ingredients:
-      "chicken, coconut soda, soy sauce, sometimes pepper it depends you know if i want it spicy or not",
-    diet_type: "meat"
-  },
-  {
-    id: 6,
-    name: "Seafood boil sauce",
-    ingredients: "butter, garlic, pepper, lemon pepper",
-    diet_type: "seafood"
-  },
-  {
-    id: 7,
-    name: "Seafood boil sauce",
-    ingredients: "butter, garlic, pepper, lemon pepper",
-    diet_type: "seafood"
-  }
+	{
+		id: 0,
+		name: 'thit kho',
+		ingredients: ['pork', 'coconut soda', 'soy sauce'],
+		diet_type: 'meat',
+		notes: 'Sometimes pepper it depends you know if i want it spicy or not',
+	},
+	{
+		id: 1,
+		name: 'fried rice',
+		ingredients: ['rice', 'peas'],
+		diet_type: 'veg',
+		notes: '',
+	},
+	{
+		id: 2,
+		name: 'meatless jerk stirfry',
+		ingredients: [
+			'meatless beef tips',
+			'jerk seasoning',
+			'bell peppers',
+			'onions',
+			'meatless crumble',
+		],
+		diet_type: 'veg',
+		notes: '',
+	},
+
+	{
+		id: 3,
+		name: 'mushroom and beef risotto',
+		ingredients: [
+			'meatless beef tips',
+			'jerk seasoning',
+			'bell peppers',
+			'onions',
+			'meatless crumble',
+		],
+		diet_type: 'meat',
+		notes: '',
+	},
+	{
+		id: 4,
+		name: 'baked lemon chicken',
+		ingredients: ['chicken', 'lemon pepper'],
+		diet_type: 'meat',
+		notes: '',
+	},
+	{
+		id: 5,
+		name: 'chicken kho',
+		ingredients: ['chicken', 'coconut soda', 'soy sauce'],
+		diet_type: 'meat',
+		notes: 'Sometimes pepper it depends you know if i want it spicy or not',
+	},
+	{
+		id: 6,
+		name: 'Seafood boil sauce',
+		ingredients: ['butter', 'garlic', 'pepper', 'lemon pepper'],
+		diet_type: 'seafood',
+		notes: '',
+	},
+	{
+		id: 7,
+		name: 'Seafood boil sauce',
+		ingredients: ['butter', 'garlic', 'pepper', 'lemon pepper'],
+		diet_type: 'seafood',
+		notes: '',
+	},
+	{
+		id: 8,
+		name: 'egg with truffle goat cheese tomato pesto on toast',
+		ingredients: ['egg', 'truffle goat', 'cheese', 'tomato pesto', 'toast'],
+		diet_type: 'vegetarian',
+		notes: '',
+	},
+	{
+		id: 9,
+		name: 'Tomato pesto, parmesan, and fried onions pasta served cold',
+		ingredients: ['Tomato pesto', 'parmesan', 'fried onions', 'pasta'],
+		diet_type: 'vegetarian',
+		notes: '',
+	},
 ];
