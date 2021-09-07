@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "2b017a4756b5559128a9",
-    "url": "/bee-recipes/static/css/main.578fddb7.chunk.css"
+    "revision": "ac2bcb9ce57c6e18c6b8",
+    "url": "/bee-recipes/static/css/main.36d095a0.chunk.css"
   },
   {
-    "revision": "2b017a4756b5559128a9",
-    "url": "/bee-recipes/static/js/main.2b017a47.chunk.js"
+    "revision": "ac2bcb9ce57c6e18c6b8",
+    "url": "/bee-recipes/static/js/main.ac2bcb9c.chunk.js"
   },
   {
     "revision": "c6903550ac6ca810c3a8",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/bee-recipes/static/js/runtime~main.d17a6dc5.js"
   },
   {
-    "revision": "48c752ad7adfea56370dd5ba24bfaaae",
+    "revision": "63e6ce5abc49448285ce69b3b341b7be",
     "url": "/bee-recipes/index.html"
   }
 ];
