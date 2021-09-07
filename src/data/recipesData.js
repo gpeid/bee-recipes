@@ -82,4 +82,11 @@ export const RECIPES = [
 		diet_type: 'vegetarian',
 		notes: '',
 	},
+	{
+		id: 10,
+		name: 'Rice and Egg',
+		ingredients: ['rice', 'egg', 'furikake', 'spam'],
+		diet_type: '',
+		notes: 'spam optional',
+	},
 ];
